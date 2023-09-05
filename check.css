@@ -77,3 +77,68 @@ a{
 
 
 }
+
+.space{
+    margin-bottom: 20px;
+}
+.icon-relative{
+    position: relative;
+}
+
+/* .icon-relative .far{ */
+.icon-relative .fas{
+    position: absolute;
+    bottom: 12px;
+    left: 15px;
+    font-size: 20px;
+    color: #555;
+
+}
+
+.btn{
+    margin-top: 40px;
+    background: #2196f3;
+    padding: 12px;
+    text-align: center;
+    border-radius: 5px;
+    color: #f8f8f8;
+    cursor: pointer;
+}
+
+.payment-logo{
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 100px;
+    background: #f8f8f8;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0,0,0,0,2);
+    text-align: center;
+    line-height: 100px;
+}
+
+.payment-logo:before{
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 90px;
+    height: 90px;
+    background: #2196f3;
+    border-radius: 50%;
+}
+
+.payment-logo p{
+   color: #f8f8f8;
+   position: relative;
+   font-family: 'baloo bhaijaan' cursive;
+   font-size: 58px;
+}
+
+.card-item{
+    width: 100%;
+    margin-bottom: 20px;
+
+}
